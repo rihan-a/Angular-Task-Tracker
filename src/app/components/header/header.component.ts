@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   title: string = 'angular-task-tracker';
+
+  toggleAddTask() {
+    console.log('toggle task');
+  }
+
+  toggleRemoveTask() {
+    console.log('remove task');
+  }
 }
